@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.header{
+    display: flexbox;
+    height: 120px;
+    width: 100%;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    align-content:center;
+}
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    border-radius: 50%;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+.navigation-bar{
+    display: flex;
+    height: 45px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation-bar a{ 
+    color: aliceblue;
+}
+.headquote{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+.School-image{
+    height: 5px;
+}
